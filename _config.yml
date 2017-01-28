@@ -1,3 +1,52 @@
-name: My Blog
-markdown: kramdown
-highlighter: rouge
+# Site Info
+title:              "YADB"
+description:        "Yet another developer blog. A public development journal."
+
+# Author Info
+author_name:        "Drew Youngwerth"
+author_email:       drew.youngwerth@versabuilt.com
+author_gravatar:    c3137853ba46521a3681ce3d9e712384 # Gravatar md5 hash
+twitter_username:   DYoungwerth
+github_username:    drew-y # GitHub username
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           America/Boise # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            false  # enables support for mathjax - set to false to disable
+
+# Site Build
+highlighter:        rouge
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
