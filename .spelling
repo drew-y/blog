@@ -1,0 +1,43 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+vscode
+intellisense
+javascript
+jsdoc
+d.ts
+globals
+nuc
+raspian
+ethernet
+wifi
+openvpn
+vpn
+lan
+ip
+dhcp
+dhcpd.conf
+conf
+openssl
+yadb
+nrird
+Youngwerth
+VersaBuilt
+NodeJS
+ - _posts/2017-01-27-importing-types-in-global-typescript-definition-files.md
+22
+1.8
+ - _posts/2017-01-28-openvpn-subnet-routing.md
+1
+2
+10.80.1.
+10.80.1.0
+4
+client.conf
+ - _site/THEME_LICENSE.md
+2015
+Heiswayi
+ - about.md
+2013
