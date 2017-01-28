@@ -4,6 +4,7 @@ title: Importing types into *.d.ts files with global definitions
 ---
 
 tldr: Use [global augmentation](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation) and a tripple slash directive
+
 ```typescript
 // index.d.ts
 import { Robot } from "robot"
@@ -29,6 +30,7 @@ scope and it needed to import a type. This was somewhat of a catch 22. Luckily, 
 reference to a solution at the very bottom of the decleration merging section of the typescript handbook. [global augmentation.](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation)
 
 After that discovery the implementation was trivial:
+
 ```typescript
 // index.d.ts
 import { Robot } from "robot"
@@ -39,6 +41,7 @@ declare global {
   }
 }
 ```
+
 ```javascript
 // index.js
 /// <reference path="index.d.ts" /> // You must use a triple slash directive for the .d.ts file to work
