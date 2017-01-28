@@ -3,10 +3,20 @@ layout: page
 title: About
 ---
 
-Hello.
+**Hello.**
 
-The main purpose of this theme is to be as simple as it could be, so you can focus on writing your stuffs. This is your About page. You may describe about yourself here; who you are, what are you currently doing, share some of your projects, your social links and how people can contact you, etc.
+My name is **Drew Youngwerth**. I'm currently a software developer at VersaBuilt Robotics. I've always been 
+passionate about computers and technology and have been an active developer since 2013. 
 
-**Just write thing that matters..**
+My current stack is: 
 
-Enjoy!
+- NodeJS
+- Typescript
+- VSCode
+
+
+I use this blog as a way to help cement lessons I've learned and will learn through my career as a developer.
+I figured it might me a good reference for me in the future. In the likely scenario I run into a problem I've
+already solved I can look back on this blog and solve the problem faster. Hopefully others might find it useful too.
+
+**Enjoy the site!**
