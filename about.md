@@ -13,6 +13,9 @@ My current stack is:
 - NodeJS
 - Typescript
 - VSCode
+- Git
+- macOS
+- ZSH
 
 
 I use this blog as a way to help cement lessons I've learned and will learn through my career as a developer.
