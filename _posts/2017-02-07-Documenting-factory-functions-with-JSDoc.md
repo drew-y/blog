@@ -13,7 +13,7 @@ module.
 /**
  * Generate a commands object
  * @param {BufferHellpers} pb - Initialized bufferhelpers
- * @returns {robotprotocol/cmds} // IMPORTANT! The factory function returns the name of the module.
+ * @returns {main/cmds} // IMPORTANT! The factory function returns the name of the module.
  */
 module.exports = (config) => { // eslint-disable-line
   // Code goes here
