@@ -49,3 +49,8 @@ function consumer(Apple: new () => Apple) { // Consumer takes a class that imple
 
 consumer(Apple: GoldenDelicious) // We did it (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ```
+
+### Sources: 
+
+1. [Stack Overflow](http://stackoverflow.com/questions/12802317/passing-class-as-parameter-causes-is-not-newable-error#answer-12871488)
+2. [Codeplex](https://typescript.codeplex.com/discussions/456796)
