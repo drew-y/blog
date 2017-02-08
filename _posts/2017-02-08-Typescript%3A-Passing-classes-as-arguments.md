@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typescript: Passing classes as arguments
+title: Typescript&#58 Passing classes as arguments
 ---
 
 In typescript is is very common to pass an instance of a class type as an argument. For example:
